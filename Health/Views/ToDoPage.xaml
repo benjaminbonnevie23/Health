@@ -15,7 +15,7 @@
                 VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="10" TextColor="White"/>
             </Grid>
 
-            <Entry Placeholder="What are you doing today?" Text="{Binding TasksToAdd}" HorizontalTextAlignment="Center"></Entry>
+            <Entry Placeholder="What are you doing today?" Margin="10,0,10,0" Text="{Binding TasksToAdd}" HorizontalTextAlignment="Center"></Entry>
 
             <Grid Grid.Row="1" Grid.Column="3" Padding="10,0,10,0">
                 <Button Text="Add" Command="{Binding AddTasksCommand}" BackgroundColor="#92C87B" WidthRequest="100" HeightRequest="70" HorizontalOptions="Start"></Button>
