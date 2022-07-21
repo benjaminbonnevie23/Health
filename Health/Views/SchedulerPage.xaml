@@ -4,12 +4,22 @@
              xmlns:local="clr-namespace:Health.Views"
              xmlns:sys="clr-namespace:System;assembly=netstandard"
              x:Class="Health.Views.SchedulerPage">
+
+    <ContentPage.BindingContext>
+        <health:ClockViewModel/>        
+    </ContentPage.BindingContext>
+
     <ContentPage.Resources>
         <x:Double x:Key="dbl">
             50
         </x:Double>
     </ContentPage.Resources>
+    
     <StackLayout>
-        <Label BindingContext="{health:ClockViewModel}" Text="{Binding DT}" FontSize="Large" HorizontalOptions="Center"></Label>
+        <Frame BackgroundColor="#92C87B" Padding="0,0,0,15" >
+            <Label Text="Scheduler" FontSize="Title" TextDecorations="Underline"
+                VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="10" TextColor="White"/>
+        </Frame>
+        <Label Text="{Binding DT}" FontSize="Large" HorizontalOptions="Center"></Label>
     </StackLayout>
 </ContentPage>
