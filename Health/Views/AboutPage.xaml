@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Health.Views.AboutPage"
+             xmlns:vm="clr-namespace:Health.ViewModels"
+             Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#92C87B</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="#92C87B" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame CornerRadius= "50" Padding="15, -15, 15, -25" Margin="10">
+                    <ContentView Padding="0,30,0,40" VerticalOptions="FillAndExpand">
+                        <Image Source="primedev_logo.png" Scale="2.5" VerticalOptions="Center" HeightRequest="64" />
+                    </ContentView>
+                </Frame>   
+
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,14,30,24" Spacing="15">
+                <Label Text="About The Developers" FontSize="Title" FontAttributes="Bold"/>
+                <Label Text="The developers of Prime Dev, the app of wellness at your fingertips, created this to help those people who are too busy in managing their health. With the four of them, they were able to bring out prime excellence in an app to help those in need."  FontSize="16" Padding="0,0,0,0"/>
+                <Label Text="The application was developed by students enrolled in the Polytechnic University of the Philippines Manila in the course of bachelor of science in computer engineering. They were at their 2nd semester in their second year when this was developed." FontSize="16"/>
+            </StackLayout>
+        </ScrollView>
+        <ScrollView Grid.Row="1" Orientation="Horizontal">
+            <StackLayout Padding="40,320,40,0" Orientation="Horizontal" Spacing="50">
+                <Image Source="KurtEdited" HeightRequest="140"/>
+                <Image Source="BenjaminEdited" HeightRequest="140"/>
+                <Image Source="JerusEdited" HeightRequest="140"/>
+                <Image Source="JohnEdited" HeightRequest="140"/>
+                <Image Source="RectoEdited" HeightRequest="140"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

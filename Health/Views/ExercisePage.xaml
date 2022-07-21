@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Health.Views.ExercisePage">
+    <ContentPage.Content>
+        <ScrollView HeightRequest="500">
+            <StackLayout>
+                <Label Text="Exercise Helper" FontSize="Title" TextDecorations="Underline"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="Body-Weight Exercises" FontSize="20"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="For best results, do 3 sets of 8 - 12 repetitions, and do not forget progressive overload" FontSize="15" HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplayOverhandPU">
+                </ImageButton>
+                <Label Text="Over-Hand Pull-Ups" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplayUnderhandPU">
+                </ImageButton>
+                <Label Text="Under-Hand Pull-ups" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplayPushUps">
+                </ImageButton>
+                <Label Text="Push-Ups" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplayDips">
+                </ImageButton>
+                <Label Text="Dips" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplayCrunches">
+                </ImageButton>
+                <Label Text="Crunches" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplayLegRaises">
+                </ImageButton>
+                <Label Text="Leg Raises" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplayJumpingJacks">
+                </ImageButton>
+                <Label Text="JumpingJacks" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplayPlanks">
+                </ImageButton>
+                <Label Text="Planks" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplaySquats">
+                </ImageButton>
+                <Label Text="Squats" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ImageButton Source="primedev_logo.png" CornerRadius="30" Clicked="DisplayCalfRaises">
+                </ImageButton>
+                <Label Text="Calf Raises" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

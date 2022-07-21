@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:Health.ViewModels"
+             x:Class="Health.Views.ToDoPage">
+
+    <ContentPage.BindingContext>
+        <local:ToDoListViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Grid.Row="1" HeightRequest="100" BackgroundColor="#92C87B" Padding="0,0,0,15">
+                <Label Text="To Do List" FontSize="Title" TextDecorations="Underline"
+                VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="10" TextColor="White"/>
+            </Grid>
+
+            <Entry Placeholder="What are you doing today?" Text="{Binding TasksToAdd}" HorizontalTextAlignment="Center"></Entry>
+
+            <Grid Grid.Row="1" Grid.Column="3" Padding="10,0,10,0">
+                <Button Text="Add" Command="{Binding AddTasksCommand}" BackgroundColor="#92C87B" WidthRequest="100" HeightRequest="70" HorizontalOptions="Start"></Button>
+                <Button Text="Remove" Command="{Binding RemoveTasksCommand}"  BackgroundColor="#92C87B"  WidthRequest="100" HeightRequest="70" HorizontalOptions="Center"></Button>
+                <Button Text="Edit" Command="{Binding EditTasksCommand}"  BackgroundColor="#92C87B"  WidthRequest="100" HeightRequest="70" HorizontalOptions="End"></Button>
+            </Grid>
+
+            <ListView ItemsSource="{Binding TasksToDo}" SelectedItem="{Binding SelectedTask}"></ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
