@@ -14,7 +14,7 @@
     <EmbeddedResource Update="Views\ExercisePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\SchedulerPage.xaml">
+    <EmbeddedResource Update="Views\FirstViewPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ToDo.xaml">
