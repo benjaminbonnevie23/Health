@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Health.Views.ExercisePage">
     <ContentPage.Content>
-        <ScrollView HorizontalOptions="CenterAndExpand" HeightRequest="500">
+        <ScrollView HeightRequest="500">
             <StackLayout>
                 <Frame BackgroundColor="#92C87B">
                     <Label Text="Exercise Helper" FontSize="Title" TextDecorations="Underline"
-                VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="10" TextColor="White"/>
+                VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"/>
                 </Frame>
                 <Label Text="Body-Weight Exercises" FontSize="20"
                 VerticalOptions="CenterAndExpand" 
