@@ -15,52 +15,52 @@
                 <Label Text="For best results, do 3 sets of 8 - 12 repetitions, and do not forget progressive overload" FontSize="15" HorizontalTextAlignment="Center"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
-                <Image Source="PULLupss.gif" IsAnimationPlaying="True" HeightRequest="300">
+                <Image Source="OverHandPullups.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-60">
                 </Image>
                 <Button Clicked="DisplayOverhandPU" Background="Gradient.png" Text="Over-Hand Pull-Ups" FontSize="Title" 
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
-                <Image Source="Pullups.gif" IsAnimationPlaying="True" HeightRequest="300">
+                <Image Source="UnderhandPullups.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-60">
                 </Image>
                 <Button Clicked="DisplayUnderhandPU" Text="Under-Hand Pull-ups" FontSize="Title" 
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
-                <Image Source="PushUps.gif" IsAnimationPlaying="True" HeightRequest="300">
+                <Image Source="Pushups.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-130">
                 </Image>
                 <Button Clicked="DisplayPushUps" Text="Push-Ups" FontSize="Title"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
-                <Image Source="dips.gif" IsAnimationPlaying="True" HeightRequest="300">
+                <Image Source="Dips.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-80">
                 </Image>
                 <Button Clicked="DisplayDips" Text="Dips" FontSize="Title" 
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
-                <Image Source="crunches.gif" IsAnimationPlaying="True" HeightRequest="300">
+                <Image Source="Crunches.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-120">
                 </Image>
                 <Button Clicked="DisplayCrunches" Text="Crunches" FontSize="Title" 
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
-                <Image Source="legraises.gif" IsAnimationPlaying="True" HeightRequest="300">
+                <Image Source="LegRaises.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-120">
                 </Image>
                 <Button Clicked="DisplayLegRaises" Text="Leg Raises" FontSize="Title" 
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
-                <Image Source="JumpJacks.gif" IsAnimationPlaying="True" HeightRequest="300">
-                </Image>
-                <Button Clicked="DisplayJumpingJacks" Text="JumpingJacks" FontSize="Title" 
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
-                <Image Source="Plank1.gif" IsAnimationPlaying="True" HeightRequest="300">
+                <Image Source="Planks.png" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-100">
                 </Image>
                 <Button Clicked="DisplayPlanks" Text="Planks" FontSize="Title" 
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
-                <Image Source="squats.gif" IsAnimationPlaying="True" HeightRequest="300">
+                <Image Source="JumpingJacks.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-70">
+                </Image>
+                <Button Clicked="DisplayJumpingJacks" Text="JumpingJacks" FontSize="Title" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
+                <Image Source="Squats.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-90">
                 </Image>
                 <Button Clicked="DisplaySquats" Text="Squats" FontSize="Title" 
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" CornerRadius="50"/>
-                <Image Source="calfraises.gif" IsAnimationPlaying="True" HeightRequest="300">
+                <Image Source="CalfRaises.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-90">
                 </Image>
                 <Button Clicked="DisplayCalfRaises" Text="Calf Raises" FontSize="Title" 
                 VerticalOptions="CenterAndExpand" 
