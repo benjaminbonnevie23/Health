@@ -10,7 +10,7 @@
                     </TapGestureRecognizer>
                 </Image.GestureRecognizers>
             </Image>
-            <Label FontSize="Large"  Text="KEEP YOUR HEALTH IN PRIME CONDITION... MINIMALLY" HorizontalTextAlignment="Center"></Label>
+            <Label FontSize="Large"  Text="KEEP YOUR HEALTH IN PRIME CONDITION... MINIMALLY" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
