@@ -9,7 +9,7 @@
                     <Label Text="Exercise Helper" FontSize="Title" TextDecorations="Underline"
                 VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"/>
                 </Frame>
-                <Label Text="Body-Weight Exercises" FontSize="20"
+                <Label Text="Body-Weight Exercises" FontSize="20" 
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
                 <Label Text="For best results, do 3 sets of 8 - 12 repetitions, and do not forget progressive overload" FontSize="15" HorizontalTextAlignment="Center"

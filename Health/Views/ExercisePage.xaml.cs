@@ -35,7 +35,7 @@ namespace Health.Views
         }
         public async void DisplayCrunches(object obj, EventArgs eventArgs)
         {
-            await DisplayAlert("Crunches", "Step 1 - Stand straight with your feet together and hands by your sides\nStep 2 - Jump up, spread your feet and bring both hands together above your head\nStep 3 - Jump again and return to the starting position. Repeat until set is complete", "Done");
+            await DisplayAlert("Crunches", "Step 1 - Lie down on your back. Plant your feet on the floor,hip-width apart. Bend your knees and place your arms acroos your chest or on your head, contract your abs and inhale\nStep 2 - Exhale and lift your body up, keeping your head and neck relaxed\nStep 3 - Inhale and return to starting position", "Done");
         }
         public async void DisplayLegRaises(object obj, EventArgs eventArgs)
         {
@@ -43,7 +43,7 @@ namespace Health.Views
         }
         public async void DisplayJumpingJacks(object obj, EventArgs eventArgs)
         {
-            await DisplayAlert("Inchworms", "Step 1 - You start standing, reach your arms down toward the ground\nStep 2 - walk your hands away from your feet, entering a plank-like position, before stepping your feet forward toward your hands and finally returning to a standing position\nStep 3 - You then continue the worm-like crawl for time or repetitions.", "Done");
+            await DisplayAlert("Jumping Jacks", "Step 1 - Stand straight with your feet together and hands by your sides\nStep 2 - Jump up, spread your feet and bring both hands together above your head\nStep 3 - Jump again and return to the starting position. Repeat until set is complete", "Done");
         }
         public async void DisplayPlanks(object obj, EventArgs eventArgs)
         {
