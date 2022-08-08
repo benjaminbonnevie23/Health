@@ -19,19 +19,19 @@ namespace Health.Views
 
         public async void DisplayOverhandPU(object obj, EventArgs eventArgs)
         {
-            await DisplayAlert("Over-Hand Pull Ups", "Step 1 - Grasp the bar with an overhand grip, arms and shoulders fully extended\nStep 2 - Pull your body up until your chin is above the bar\nStep 3 - Lower your body back to starting position", "Done");
+            await DisplayAlert("Over-Hand Pull Ups", "Step 1 - Grasp the bar with an overhand grip, arms and shoulders fully extended\nStep 2 - Pull your body up until your chin is above the bar\nStep 3 - Lower your body back to starting position\n\nYou may use chairs,tables, or anything where you can recline or hang in to.\nEasier variations include Australian Overhand Pull-ups and Overhand Rows", "Done");
         }
         public async void DisplayUnderhandPU(object obj, EventArgs eventArgs)
         {
-            await DisplayAlert("Under-Hand Pull-ups", "Step 1 - Grasp the bar with an underhand grip, arms and shoulders fully extended\nStep 2 - Pull your body up until your chin is above the bar\nStep 3 - Lower your body back to starting position", "Done");
+            await DisplayAlert("Under-Hand Pull-ups", "Step 1 - Grasp the bar with an underhand grip, arms and shoulders fully extended\nStep 2 - Pull your body up until your chin is above the bar\nStep 3 - Lower your body back to starting position\n\nYou may use chairs,tables, or anything where you can recline or hang in to.\nEasier variations include Australian Underhand Pull-ups and Underhand Rows", "Done");
         }
         public async void DisplayPushUps(object obj, EventArgs eventArgs)
         {
-            await DisplayAlert("Push-Ups", "Step 1 - Place your hands firmly on the ground, directly under shoulders\nStep 2 - Flatten your back so your entire body is straight and slowly lower your body\nStep 3 - Draw shoulder blades back and down, keeping elbows tucked close to your body\nStep 4 - Exhale as you push back to the starting position\n", "Done");
+            await DisplayAlert("Push-Ups", "Step 1 - Place your hands firmly on the ground, directly under shoulders\nStep 2 - Flatten your back so your entire body is straight and slowly lower your body\nStep 3 - Draw shoulder blades back and down, keeping elbows tucked close to your body\nStep 4 - Exhale as you push back to the starting position.\n\nYou may use chairs,tables, or anything where you can incline or decline your upper body\n Easier variations include Incline Push-ups and Wall Push-Ups", "Done");
         }
         public async void DisplayDips(object obj, EventArgs eventArgs)
         {
-            await DisplayAlert("Dips", "Step 1 - Hold your body with arms locked above the equipment\nStep 2 - Lower your body slowly while leaning forward, flare out your elbows\nStep 3 - Raise your body above the bars until your arms are locked.", "Done");
+            await DisplayAlert("Dips", "Step 1 - Hold your body with arms locked above the equipment\nStep 2 - Lower your body slowly while leaning forward, flare out your elbows\nStep 3 - Raise your body above the bars until your arms are locked.\n\nPlace your legs closer to your torso for easier variation.", "Done");
         }
         public async void DisplayCrunches(object obj, EventArgs eventArgs)
         {
@@ -39,7 +39,7 @@ namespace Health.Views
         }
         public async void DisplayLegRaises(object obj, EventArgs eventArgs)
         {
-            await DisplayAlert("Leg Raises", "Step 1 - Lay on your back with your arms palms down on either side\nStep 2 - Keep your legs together and as straight as possible\nStep 3 - Slowly raise your legs to a 90° angle, pause at this position, or as high as you can reach your legs, and then slowly lower your legs back down\nStep 4 - Duration of these movements should be slow so that you do not utilize momentum, enabling you to get the most out of the exercise", "Done");
+            await DisplayAlert("Leg Raises", "Step 1 - Lay on your back with your arms palms down on either side\nStep 2 - Keep your legs together and as straight as possible\nStep 3 - Slowly raise your legs to a 90° angle, pause at this position, or as high as you can reach your legs, and then slowly lower your legs back down\nStep 4 - Duration of these movements should be slow so that you do not utilize momentum, enabling you to get the most out of the exercise\n\nFor an easier variation, raise only your knees and not your whole legs.", "Done");
         }
         public async void DisplayJumpingJacks(object obj, EventArgs eventArgs)
         {
@@ -51,7 +51,7 @@ namespace Health.Views
         }
         public async void DisplaySquats(object obj, EventArgs eventArgs)
         {
-            await DisplayAlert("Squats", "Step 1 - Stand with your feet shoulder width apart\nStep 2 - flex your knees and hips and sit back into the squat while lowering your body\nStep 3 - Continue down to full depth\nStep 4 - Return to starting position", "Done");
+            await DisplayAlert("Squats", "Step 1 - Stand with your feet shoulder width apart\nStep 2 - flex your knees and hips and sit back into the squat while lowering your body\nStep 3 - Continue down to full depth\nStep 4 - Return to starting position\n\nUse supports such as chairs or even a wall for easier variation", "Done");
         }
         public async void DisplayCalfRaises(object obj, EventArgs eventArgs)
         {

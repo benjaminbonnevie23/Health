@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Health.Views.BMIPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="#92C87B">
+                    <Label Text="BMI Calculator and Diet Tips to have a PRIME health and wellness" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Title" TextDecorations="Underline"
+                 TextColor="White"/>
+                </Frame>
+                <Label Text="BMI Calculator" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Title" TextDecorations="Underline"/>
+                <Entry x:Name="HeightIn" TextChanged="HeightIn_TextChanged" Placeholder="What is your Height(cm)?"  Margin="200,0,200,0" HorizontalTextAlignment="Center"></Entry>
+                <Entry x:Name="WeightIn" TextChanged="WeightIn_TextChanged" Placeholder="What is your Weight(kg)?" Margin="200,0,200,0" HorizontalTextAlignment="Center"></Entry>
+
+                <Button Text="Calculate" Clicked="Button_Clicked" CornerRadius="20" BackgroundColor="#92C87B"  WidthRequest="150" HeightRequest="70" HorizontalOptions="Center"></Button>
+                <Label x:Name="BMIOut" FontSize="Large" Text="*Your BMI will be displayed here*" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Padding="20"></Label>
+
+                <Label Text="BMI CATEGORIES" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Label Text="Underweight if BMI is less than 18.5" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Label Text="Normal weight if BMI is 18.5–24.9" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Label Text="Overweight if BMI is 25–29.9" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                <Label Text="Obesity if BMI is 30 or greater" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+
+                <Label Text="Dietary Tips" Margin="20" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Title" TextDecorations="Underline"/>
+                <Label Text="1. Fill up on Fiber" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="2. Ditch Added Sugar" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="3. Make Room for Healthy Fat" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="4. Minimize Distractions" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="5. Walk Your Way to Health" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="6. Bring out Your Inner Chef" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="7. Have a Protein-Rich Breakfast" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="8. Don't Drink Your Calories" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="9. Shop Smart" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="10. Stay Hydrated" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="11. Practice Mindful Eating" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="12. Cut Back on Refined Carbs" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="13. Lift Heavier to Get Lighter" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="14. Set Meaningful Goals" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="15. Avoid Fad Diets" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="16. Eat Whole Foods" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="17. Buddy Up" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="18. Don't Deprive Yourself" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="19. Be Realistic" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="20. Vegetables Out" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="21. Snack Smart" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="22. Fill the Void" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="23. Make Time for Yourself" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="24. Find Workouts You Actually Enjoy" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+                <Label Text="25. Support Is Everything" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Medium"/>
+
+
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

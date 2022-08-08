@@ -34,6 +34,8 @@
         <ShellContent Title="PRIMEDEV" Icon="primedev_logo.png" Route="FirstViewPage" ContentTemplate="{DataTemplate local:FirstViewPage}"/>
         <ShellContent Title="To Do" Icon="ToDoIcon.png" Route="ToDoPage" ContentTemplate="{DataTemplate local:ToDoPage}"/>
         <ShellContent Title="Exercise" Icon="ExerciseIcon.png" Route="ExercisePage" ContentTemplate="{DataTemplate local:ExercisePage}"/>
+        <ShellContent Title="BMI" Icon="ExerciseIcon.png" Route="ExercisePage" ContentTemplate="{DataTemplate local:BMIPage}"/>
+
     </TabBar>
 
     <!--

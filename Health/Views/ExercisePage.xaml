@@ -15,6 +15,10 @@
                 <Label Text="For best results, do 3 sets of 8 - 12 repetitions, and do not forget progressive overload" FontSize="15" HorizontalTextAlignment="Center"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
+                <Label Text="* For users with heart problems or any cardio-vascular ailments, please refrain from doing hard variations of the exercises and proceed to the easier variations.*" 
+                FontSize="15" HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
                 <Image Source="OverHandPullups.gif" IsAnimationPlaying="True" HeightRequest="300" Margin="0,0,0,-60">
                 </Image>
                 <Button Clicked="DisplayOverhandPU" Background="Gradient.png" Text="Over-Hand Pull-Ups" FontSize="Title" 
